@@ -7,6 +7,118 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="main_title" />
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="available_label" />
+
+        <TextView
+            android:id="@+id/available_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none_text" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="provider_label" />
+
+        <TextView
+            android:id="@+id/provider_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time_label" />
+
+        <TextView
+            android:id="@+id/time_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="latitude_label" />
+
+        <TextView
+            android:id="@+id/latitude_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="longitude_label" />
+
+        <TextView
+            android:id="@+id/longitude_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="altitude_label" />
+
+        <TextView
+            android:id="@+id/altitude_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="accuracy_label" />
+
+        <TextView
+            android:id="@+id/accuracy_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none_text" />
+    </LinearLayout>
 
 </LinearLayout>

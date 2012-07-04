@@ -1,5 +1,6 @@
 package jp.co.yunko;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -97,5 +98,12 @@ public class LocationGeneral {
 	void setLocation(final Location location) {
 		stopLocationService();
 		
+		activity.providerView.setText(location.getProvider());
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd (EE) HH:mm:ss.SSS zz");
+		activity.timeView.setText(df.format(location.getTime()));
+		activity.latitudeView.setText(Double.toString(location.getLatitude()));
+		activity.longitudeView.setText(Double.toString(location.getLongitude()));
+		activity.altitudeView.setText(Double.toString(location.getAltitude()));
+		activity.accuracyView.setText(Double.toString(location.getAccuracy()));
 	}
 }
